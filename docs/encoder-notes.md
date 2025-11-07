@@ -9,3 +9,18 @@
 
 ## From rt-net
  - https://rt-net.jp/mobility/archives/24962
+
+## Issues with magnetic encoders:
+ - https://megato.hatenablog.com/entry/2015/11/29/171715
+ - https://megato.hatenablog.com/entry/2015/12/04/035435
+- 
+
+
+## Magnets
+
+Japan has a good magnet supplier. For example:
+https://www.neomag.jp/shop/shoppingcart/itemdetail.php?itemno=ND00400200014K&qty=1
+
+
+## Optical encoders
+
