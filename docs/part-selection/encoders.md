@@ -58,5 +58,52 @@ Let me know if you'd like help selecting the best encoder for a specific motor o
 - **MA730** leads in speed, handling up to 60,000 rpm, ideal for robotics and high-speed motors.
 - **QFN and TSSOP** packages dominate this category, offering compact footprints for embedded systems.
 
-Let me know if you’d like help choosing the best one for your motor specs or layout constraints!
+
 ---------------------------------------8<------------------------------------------
+
+## Magnet Suppliers
+
+
+These are some suppliers I found:
+
+- MagnetStore:
+https://magnetstore.co.uk/disc-magnets/6mm-x-3mm-disc-diametrically-magnetised-neodymium-n52-0-31kg-pull/
+about £1 each. The seem pretty big for the job
+
+- AMF Magnets
+https://amfmagnets.co.uk/products/neodymium-disc-6mm-x-2mm-diametric-n35
+about £0.60 each
+Still a large diameter but thinner at least. These are about he size recommended in the AS5040 datasheet
+
+- AMF Magnets
+https://amfmagnets.co.uk/products/neodymium-disc-magnet-4mm-x-3mm-n52-diametrically-magnetised
+about  £0.60 each
+Seems like a much better diameter but quite thick
+
+- magnetexpert
+https://www.magnetexpert.com/product/6mm-od-x-3mm-id-x-1mm-thick-diametrically-magnetised-n42-neodymium-magnet-19263
+about £0.39 each
+These look interesting because of the hole though they are quite thick, they will weigh less than the 6x3 ones above
+
+- magnetexpert
+https://www.magnetexpert.com/product/6mm-dia-x-1mm-thick-diametrically-magnetised-n42-neodymium-magnet-20413
+about £0.30 each
+nice and thin while still being the diameter recommended
+
+- first4magnets
+https://www.first4magnets.com/product/6mm-dia-x-1mm-thick-diametrically-magnetised-n42-neodymium-magnet-20413
+This is the same company as magnetexpert - same phone number for example.
+
+- Digikey have a range of sizes including
+https://www.digikey.co.uk/en/products/detail/radial-magnets-inc/9098/22935757
+(3mm dia x 2.5mm)
+https://www.digikey.co.uk/en/products/detail/radial-magnets-inc/9083/22935780
+(4mm dia x 2.5mm)
+and several at 6mm dia x 2.5mm
+prices are £0.30 to £0.50 each
+
+
+
+The Japanese are, as ever, spoilt for choice with many sizes of diametric magnets:
+https://www.neomag.jp/shop/magnets/category_list1.php?cat2_id=1&shape_id=1&magdir_id=2
+
