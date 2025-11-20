@@ -1,7 +1,320 @@
 (kicad_symbol_lib
-	(version 20231120)
+	(version 20241209)
 	(generator "kicad_symbol_editor")
-	(generator_version "8.0")
+	(generator_version "9.0")
+	(symbol "DRV8835"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U6"
+			(at 2.032 13.208 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DRV8835"
+			(at 2.032 11.176 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "mouse:DRV8835"
+			(at -10.16 3.81 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -10.16 3.81 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "DRV8835_0_1"
+			(rectangle
+				(start -12.7 10.16)
+				(end 10.16 -10.16)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(rectangle
+				(start -3.81 -7.62)
+				(end -3.81 -7.62)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "DRV8835_1_1"
+			(pin input line
+				(at -15.24 7.62 0)
+				(length 2.54)
+				(name "AIN1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -15.24 5.08 0)
+				(length 2.54)
+				(name "AIN2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -15.24 0 0)
+				(length 2.54)
+				(name "BIN1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -15.24 -2.54 0)
+				(length 2.54)
+				(name "BIN2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -15.24 -7.62 0)
+				(length 2.54)
+				(name "MODE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -2.54 12.7 270)
+				(length 2.54)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -2.54 -12.7 90)
+				(length 2.54)
+				(name "GNDP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 12.7 270)
+				(length 2.54)
+				(name "VM"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -12.7 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12.7 7.62 180)
+				(length 2.54)
+				(name "AOUT1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12.7 5.08 180)
+				(length 2.54)
+				(name "AOUT2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12.7 0 180)
+				(length 2.54)
+				(name "BOUT1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12.7 -2.54 180)
+				(length 2.54)
+				(name "BOUT2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "Minimus Logo"
 		(exclude_from_sim no)
 		(in_bom no)
@@ -77,18 +390,6 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 -3.81) (xy -2.54 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy -2.54 0) (xy -2.54 2.54)
 				)
 				(stroke
@@ -101,7 +402,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 0) (xy -2.54 0)
+					(xy -2.54 -3.81) (xy -2.54 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -125,7 +426,19 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -1.27) (xy 0 1.27)
+					(xy -1.27 0) (xy -2.54 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -2.54) (xy 1.27 -2.54) (xy 1.27 0) (xy 2.54 0) (xy 2.54 -1.27)
 				)
 				(stroke
 					(width 0)
@@ -149,7 +462,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 -2.54) (xy 1.27 -2.54)
+					(xy 0 -1.27) (xy 0 1.27)
 				)
 				(stroke
 					(width 0)
@@ -173,7 +486,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 -2.54) (xy 1.27 -2.54) (xy 1.27 0) (xy 2.54 0) (xy 2.54 -1.27)
+					(xy 2.54 -2.54) (xy 1.27 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -184,6 +497,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "STM32F411_3CEU6"
 		(pin_names
@@ -268,186 +582,6 @@
 				)
 			)
 			(pin input line
-				(at -25.4 -5.08 0)
-				(length 2.54)
-				(name "PA0/TIM2-1,5-1/ADC1-0"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "10"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -25.4 -6.35 0)
-				(length 2.54)
-				(name "PA1/TIM2-2,5-2/ADC1-1"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -25.4 -7.62 0)
-				(length 2.54)
-				(name "PA2/TIM2-3,5-3/ADC1-2"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "12"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -6.35 -25.4 90)
-				(length 2.54)
-				(name "PA3/TIM2-4,5-4/ADC1-3"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "13"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -5.08 -25.4 90)
-				(length 2.54)
-				(name "PA4/ADC1-4"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "14"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -3.81 -25.4 90)
-				(length 2.54)
-				(name "PA5/TIM2-1/SPI1SCK/ADC1-5"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "15"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -2.54 -25.4 90)
-				(length 2.54)
-				(name "PA6/TIM3-1/SPI1MISO/ADC1-6"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "16"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -1.27 -25.4 90)
-				(length 2.54)
-				(name "PA7/TIM3-2/SPI1MOSI/ADC1-7"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "17"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 0 -25.4 90)
-				(length 2.54)
-				(name "PB0/TIM3-3/ADC1-8"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "18"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 1.27 -25.4 90)
-				(length 2.54)
-				(name "PB1/TIM3-4/ADC1-9"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "19"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-			)
-			(pin input line
 				(at -25.4 5.08 0)
 				(length 2.54)
 				(name "PC13"
@@ -458,186 +592,6 @@
 					)
 				)
 				(number "2"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 2.54 -25.4 90)
-				(length 2.54)
-				(name "BOOT1"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "20"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 3.81 -25.4 90)
-				(length 2.54)
-				(name "PB10/TIM2-3/SPI2SCK"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "21"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 5.08 -25.4 90)
-				(length 2.54)
-				(name "VCAP1"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "22"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 6.35 -25.4 90)
-				(length 2.54)
-				(name "VSS"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "23"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 7.62 -25.4 90)
-				(length 2.54)
-				(name "VDD"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "24"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 25.4 -7.62 180)
-				(length 2.54)
-				(name "PB12/SPI3SCK"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "25"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 25.4 -6.35 180)
-				(length 2.54)
-				(name "PB13/SPI2SCK"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "26"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 25.4 -5.08 180)
-				(length 2.54)
-				(name "PB14/SPI2MISO"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "27"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 25.4 -3.81 180)
-				(length 2.54)
-				(name "PB15/SPI2MOSI"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "28"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 25.4 -2.54 180)
-				(length 2.54)
-				(name "PA8/TIM1-1"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "29"
 					(effects
 						(font
 							(size 0.508 0.508)
@@ -664,186 +618,6 @@
 				)
 			)
 			(pin input line
-				(at 25.4 -1.27 180)
-				(length 2.54)
-				(name "PA9/USART1TX"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "30"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 25.4 0 180)
-				(length 2.54)
-				(name "PA10/USRAT1RX"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "31"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 25.4 1.27 180)
-				(length 2.54)
-				(name "PA11/TIM1-4"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "32"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 25.4 2.54 180)
-				(length 2.54)
-				(name "PA12"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "33"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 25.4 3.81 180)
-				(length 2.54)
-				(name "PA13"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "34"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 25.4 5.08 180)
-				(length 2.54)
-				(name "VSS"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "35"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 25.4 6.35 180)
-				(length 2.54)
-				(name "VDD"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "36"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 7.62 25.4 270)
-				(length 2.54)
-				(name "PA14"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "37"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 6.35 25.4 270)
-				(length 2.54)
-				(name "PA15/TIM2-1"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "38"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 5.08 25.4 270)
-				(length 2.54)
-				(name "PB3/TIM2-2/SPI1SCK/SPI3SCK"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "39"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-			)
-			(pin input line
 				(at -25.4 2.54 0)
 				(length 2.54)
 				(name "PC15/OSC32-OUT"
@@ -854,168 +628,6 @@
 					)
 				)
 				(number "4"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 3.81 25.4 270)
-				(length 2.54)
-				(name "PB4/TIM3-1/SPI1MISO/SPI3MISO"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "40"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 2.54 25.4 270)
-				(length 2.54)
-				(name "PB5/TIM3-2/SPI1MOSI/SPI3MOSI"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "41"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 1.27 25.4 270)
-				(length 2.54)
-				(name "PB6/TIM4-1"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "42"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 0 25.4 270)
-				(length 2.54)
-				(name "PB7/TIM4-2"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "43"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -1.27 25.4 270)
-				(length 2.54)
-				(name "BOOT0"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "44"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -2.54 25.4 270)
-				(length 2.54)
-				(name "PB8/TIM4-3"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "45"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -3.81 25.4 270)
-				(length 2.54)
-				(name "PB9/TIM4-4"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "46"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -5.08 25.4 270)
-				(length 2.54)
-				(name "VSS"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "47"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -6.35 25.4 270)
-				(length 2.54)
-				(name "VDD"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "48"
 					(effects
 						(font
 							(size 0.508 0.508)
@@ -1113,12 +725,719 @@
 					)
 				)
 			)
+			(pin input line
+				(at -25.4 -5.08 0)
+				(length 2.54)
+				(name "PA0/TIM2-1,5-1/ADC1-0"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -25.4 -6.35 0)
+				(length 2.54)
+				(name "PA1/TIM2-2,5-2/ADC1-1"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -25.4 -7.62 0)
+				(length 2.54)
+				(name "PA2/TIM2-3,5-3/ADC1-2"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -6.35 25.4 270)
+				(length 2.54)
+				(name "VDD"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "48"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -6.35 -25.4 90)
+				(length 2.54)
+				(name "PA3/TIM2-4,5-4/ADC1-3"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -5.08 25.4 270)
+				(length 2.54)
+				(name "VSS"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "47"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -5.08 -25.4 90)
+				(length 2.54)
+				(name "PA4/ADC1-4"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -3.81 25.4 270)
+				(length 2.54)
+				(name "PB9/TIM4-4"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "46"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -3.81 -25.4 90)
+				(length 2.54)
+				(name "PA5/TIM2-1/SPI1SCK/ADC1-5"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -2.54 25.4 270)
+				(length 2.54)
+				(name "PB8/TIM4-3"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "45"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -2.54 -25.4 90)
+				(length 2.54)
+				(name "PA6/TIM3-1/SPI1MISO/ADC1-6"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -1.27 25.4 270)
+				(length 2.54)
+				(name "BOOT0"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "44"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -1.27 -25.4 90)
+				(length 2.54)
+				(name "PA7/TIM3-2/SPI1MOSI/ADC1-7"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 25.4 270)
+				(length 2.54)
+				(name "PB7/TIM4-2"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "43"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -25.4 90)
+				(length 2.54)
+				(name "PB0/TIM3-3/ADC1-8"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 1.27 25.4 270)
+				(length 2.54)
+				(name "PB6/TIM4-1"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "42"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 1.27 -25.4 90)
+				(length 2.54)
+				(name "PB1/TIM3-4/ADC1-9"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 2.54 25.4 270)
+				(length 2.54)
+				(name "PB5/TIM3-2/SPI1MOSI/SPI3MOSI"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "41"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 2.54 -25.4 90)
+				(length 2.54)
+				(name "BOOT1"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 3.81 25.4 270)
+				(length 2.54)
+				(name "PB4/TIM3-1/SPI1MISO/SPI3MISO"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "40"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 3.81 -25.4 90)
+				(length 2.54)
+				(name "PB10/TIM2-3/SPI2SCK"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 5.08 25.4 270)
+				(length 2.54)
+				(name "PB3/TIM2-2/SPI1SCK/SPI3SCK"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "39"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 5.08 -25.4 90)
+				(length 2.54)
+				(name "VCAP1"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 6.35 25.4 270)
+				(length 2.54)
+				(name "PA15/TIM2-1"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "38"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 6.35 -25.4 90)
+				(length 2.54)
+				(name "VSS"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 7.62 25.4 270)
+				(length 2.54)
+				(name "PA14"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "37"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 7.62 -25.4 90)
+				(length 2.54)
+				(name "VDD"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 25.4 6.35 180)
+				(length 2.54)
+				(name "VDD"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "36"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 25.4 5.08 180)
+				(length 2.54)
+				(name "VSS"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "35"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 25.4 3.81 180)
+				(length 2.54)
+				(name "PA13"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "34"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 25.4 2.54 180)
+				(length 2.54)
+				(name "PA12"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "33"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 25.4 1.27 180)
+				(length 2.54)
+				(name "PA11/TIM1-4"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "32"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 25.4 0 180)
+				(length 2.54)
+				(name "PA10/USRAT1RX"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "31"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 25.4 -1.27 180)
+				(length 2.54)
+				(name "PA9/USART1TX"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "30"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 25.4 -2.54 180)
+				(length 2.54)
+				(name "PA8/TIM1-1"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "29"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 25.4 -3.81 180)
+				(length 2.54)
+				(name "PB15/SPI2MOSI"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "28"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 25.4 -5.08 180)
+				(length 2.54)
+				(name "PB14/SPI2MISO"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "27"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 25.4 -6.35 180)
+				(length 2.54)
+				(name "PB13/SPI2SCK"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "26"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 25.4 -7.62 180)
+				(length 2.54)
+				(name "PB12/SPI3SCK"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "SW_Push"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.016)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1199,10 +1518,9 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy 2.54 1.27) (xy -2.54 1.27)
-				)
+			(circle
+				(center 2.032 0)
+				(radius 0.508)
 				(stroke
 					(width 0)
 					(type default)
@@ -1211,9 +1529,10 @@
 					(type none)
 				)
 			)
-			(circle
-				(center 2.032 0)
-				(radius 0.508)
+			(polyline
+				(pts
+					(xy 2.54 1.27) (xy -2.54 1.27)
+				)
 				(stroke
 					(width 0)
 					(type default)
@@ -1259,5 +1578,6 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 )
