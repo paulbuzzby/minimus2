@@ -7082,6 +7082,17 @@
 			(uuid "4da7537d-ccc9-41d7-88b4-050f1bb4ae69")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/libraries/BCR420UFD/U-DFN2020-6.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 -0 -90)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
